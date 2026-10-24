@@ -99,3 +99,6 @@ table { border-collapse:collapse; width:100%; font-size:15px; } th, td { text-al
 
 @media (max-width:820px) { .top nav a:nth-child(-n+2) { display:none; } .hero h1 { font-size:40px; } .rain b { opacity:0; } .hero .wrap, .trust, .foot .wrap { grid-template-columns:1fr; } .grid3 { grid-template-columns:1fr; } .grid4, .glance { grid-template-columns:1fr 1fr; } .phone { transform:none; } .hero { padding-top:34px; } }
 @media (prefers-reduced-motion: reduce) { .rain { display:none; } .board u.drop { animation:none; } html { scroll-behavior:auto; } .btn { transition:none; } }
+
+.store-badge { display:inline-block; line-height:0; padding:4px; border-radius:12px; } .store-badge img { display:block; height:56px; width:auto; }
+.only-ios { margin:18px 0 0; font-size:16px; color:var(--soft); } .only-ios strong { color:var(--fg); }
