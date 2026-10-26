@@ -33,9 +33,10 @@ Each item happened once and cost time. Check them before building and again befo
 22. Don't promise "no ads", "no purchases" or "free" in listing text when monetisation might come later; keep App Review notes factual about the current build instead.
 23. China mainland and Vietnam need game licences: exclude them in Pricing and Availability.
 24. EU DSA trader status must be declared before EU distribution.
+25. **NumFall 1.2 "Add for Review" failed** because What's New was filled for English (U.S.) only, not English (U.K.). Every update: fill What's New in every localisation (switch the language menu), and give the owner each language's text.
 
 ## Process
-25. The sandbox cannot download from GitHub artifact storage or Google Drive; read logs through the GitHub MCP tool and ask for images when needed.
-26. GitHub repo creation may be blocked for the integration: ask the owner to create the repo (empty, public) and then attach it with `add_repo`.
-27. Never request or echo secrets; the owner pastes them only into GitHub secrets.
-28. Keep the owner informed with short, plain messages; when they paste a screenshot of App Store Connect, respond to exactly what it shows.
+26. The sandbox cannot download from GitHub artifact storage or Google Drive; read logs through the GitHub MCP tool and ask for images when needed.
+27. GitHub repo creation may be blocked for the integration: ask the owner to create the repo (empty, public) and then attach it with `add_repo`.
+28. Never request or echo secrets; the owner pastes them only into GitHub secrets.
+29. Keep the owner informed with short, plain messages; when they paste a screenshot of App Store Connect, respond to exactly what it shows.

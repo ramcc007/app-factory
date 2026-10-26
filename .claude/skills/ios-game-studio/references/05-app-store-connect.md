@@ -58,4 +58,6 @@ What's New (1.0): Welcome to <Name>! <one line>
 Copyright: 2026 <Owner legal name>
 ```
 
+**Every update, every localisation:** the version page has one set of fields per language (language menu, top right of Product Page Information). Fill **What's New** (and any changed keywords or promo text) in **every** localisation the app has, for example English (U.S.) **and** English (U.K.). A missing one blocks "Add for Review" ("English (U.K.) - What's New in This Version - This field is required", sometimes shown only as "An unexpected error was encountered"). Always give the owner the text for each language, including UK spelling where it differs.
+
 Before submitting, grep every public text (listing, site, app strings, screenshots' headlines) for the banned brand list and check each sentence is true for the build.
