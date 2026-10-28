@@ -35,6 +35,8 @@ Each item happened once and cost time. Check them before building and again befo
 24. EU DSA trader status must be declared before EU distribution.
 25. **NumFall 1.2 "Add for Review" failed** because What's New was filled for English (U.S.) only, not English (U.K.). Every update: fill What's New in every localisation (switch the language menu), and give the owner each language's text.
 
+25b. **NumFall 1.2 rejected under 5.1.2(i):** the App Privacy label marked Firebase data types as "used to track" but the app has no ATT prompt. For opt-in analytics without IDFA, every data type must say "Used for tracking: No"; check the published label has no "Data Used to Track You" section. If the owner wants tracking, add the ATT prompt first.
+
 ## Process
 26. The sandbox cannot download from GitHub artifact storage or Google Drive; read logs through the GitHub MCP tool and ask for images when needed.
 27. GitHub repo creation may be blocked for the integration: ask the owner to create the repo (empty, public) and then attach it with `add_repo`.
